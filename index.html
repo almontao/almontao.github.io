@@ -102,9 +102,9 @@
         </div>
 
         <div class="header-buttons">
-          <a href="https://www.alejandromontenegro.com/blog" class="btn btn-primary">Blog</a>
+          <a href="https://www.alejandromontenegro.com/blog" class="btn btn-primary" id="blog">Blog</a>
           <br>
-          <a href="https://www.alejandromontenegro.com/blog" class="btn btn-primary">Curiculum Vitae</a>
+          <a href="https://www.alejandromontenegro.com/blog" class="btn btn-primary" id="curriculum-vitae">Curiculum Vitae</a>
         </div>
 
         <div class="copyrights" id="footer">© <span id='currentYear'></span> Todos los derechos reservados.</div>
@@ -143,12 +143,32 @@
                       <div class="item">
                         <div class="sp-subtitle">Select a language</div>
                       </div>
+
+                      <div class="item">
+                        <div class="sp-subtitle">Sélectionner une langue</div>
+                      </div>
+
+                      <div class="item">
+                        <div class="sp-subtitle">Selecione um idioma</div>
+                      </div>
+
+                      <div class="item">
+                        <div class="sp-subtitle">Wählen Sie eine Sprache</div>
+                      </div>
+
+                      <div class="item">
+                        <div class="sp-subtitle">Выберите язык</div>
+                      </div>
                     </div>
 
                     <br>
 
                     <button onclick="changeLanguage('es')">Español</button>
                     <button onclick="changeLanguage('en')">English</button>
+                    <button onclick="changeLanguage('fr')">Français</button>
+                    <button onclick="changeLanguage('pt')">Português</button>
+                    <button onclick="changeLanguage('de')">Deutsch</button>
+                    <button onclick="changeLanguage('ru')">Русский</button>
                     
                   </div>
                 </div>
@@ -391,8 +411,8 @@
 
                     <div class="timeline-item clearfix">
                       <div class="left-part">
-                        <h5 class="item-period">2024 - Present</h5>
-                        <span class="item-company" id="unal-pos-name">National University of Colombia</span>
+                        <h5 class="item-period">2024 - 2026</h5>
+                        <span class="item-company" id="unal-pos-name">Universidad Nacional de Colombia</span>
                       </div>
                       <div class="divider"></div>
                       <div class="right-part" id="unal-pos-description">
@@ -536,7 +556,7 @@
 
                     <!-- Skill 7 -->
                     <div class="skill clearfix">
-                      <h4 id="machine-learning">Machine Learning</h4>
+                      <h4 id="machine-learning-skill">Aprendizaje automático</h4>
                       <div class="skill-value">90%</div>
                     </div>
                     <div class="skill-container skill-7">
@@ -546,7 +566,7 @@
 
                     <!-- Skill 8 -->
                     <div class="skill clearfix">
-                      <h4 id="deep-learning">Deep Learning</h4>
+                      <h4 id="deep-learning">Aprendizaje Profundo</h4>
                       <div class="skill-value">80%</div>
                     </div>
                     <div class="skill-container skill-8">
