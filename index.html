@@ -1,146 +1,874 @@
 <!DOCTYPE html>
 <html lang="es" class="no-js">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Alejandro Montenegro Taborda</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Resumen web del investigador Alejandro Montenegro Taborda" />
-    <meta name="keywords" content="Alejandro Montenegro Taborda, amontenegrot, CV, resume, curriculum vitae" />
-    <meta name="author" content="amontenegrot" />
-    <link rel="shortcut icon" href="favicon.png">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Alejandro Montenegro Taborda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="Resumen web del investigador Alejandro Montenegro Taborda" />
+  <meta name="keywords" content="Alejandro Montenegro Taborda, amontenegrot, CV, resume, curriculum vitae" />
+  <meta name="author" content="amontenegrot" />
+  <link rel="shortcut icon" href="favicon.png">
 
 
-    <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+  <link rel="stylesheet" href="css/animations.css" type="text/css">
+  <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
 
-    <script src="js/modernizr.custom.js"></script>
-  </head>
+  <script src="js/modernizr.custom.js"></script>
+</head>
 
-  <body>
-    <!-- Animated Background -->
-    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
-    <!-- /Animated Background -->
+<body>
+  <!-- Animated Background -->
+  <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+  <!-- /Animated Background -->
 
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
+  <!-- Loading animation -->
+  <div class="preloader">
+    <div class="preloader-animation">
+      <div class="preloader-spinner">
       </div>
     </div>
-    <!-- /Loading animation -->
+  </div>
+  <!-- /Loading animation -->
 
-    <div class="page">
-      <div class="page-content">
+  <div class="page">
+    <div class="page-content">
 
-          <header id="site_header" class="header mobile-menu-hide">
-            <div class="header-content">
-              <div class="header-photo">
-                <img src="img/main_photo.jpg" alt="Alejandro Montenegro Taborda">
-              </div>
-              <div class="header-titles">
-                <h2>Alejandro Montenegro Taborda</h2>
-              </div>
-            </div>
-
-            <ul class="main-menu">
-              <li class="active">
-                <a href="#home" class="nav-anim">
-                  <span class="menu-icon fas fa-language"></span>
-                </a>
-              </li>
-            </ul>
-
-            <div class="social-links">
-              <ul>
-                <li><a href="https://www.linkedin.com/in/amontenegrot/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://www.researchgate.net/profile/Alejandro-Montenegro-Taborda" target="_blank"><i class="fab fa-researchgate"></i></a></li>
-                <li><a href="https://orcid.org/0000-0002-8988-6359" target="_blank"><i class="fab fa-orcid"></i></a></li>
-                <li><a href="https://github.com/amontenegrot" target="_blank"><i class="fab fa-github"></i></a></li>
-              </ul>
-            </div>
-
-            <div class="header-buttons">
-              <a href="https://www.alejandromontenegro.com/blog" class="btn btn-primary">Blog</a>
-            </div>
-
-            <!-- <div class="copyrights">© 2022 Todos los derechos reservados.</div> -->
-            <div class="copyrights">© <span id="currentYear"></span> Todos los derechos reservados.</div>
-
-          </header>
-
-          <!-- Mobile Navigation -->
-          <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+      <header id="site_header" class="header mobile-menu-hide">
+        <div class="header-content">
+          <div class="header-photo">
+            <img src="img/main_photo.jpg" alt="Alejandro Montenegro Taborda">
           </div>
-          <!-- End Mobile Navigation -->
+          <div class="header-titles">
+            <h2>Alejandro Montenegro Taborda</h2>
+            <h4 id="profession">Lingüista</h4>
+          </div>
+        </div>
 
-          <div class="content-area">
-            <div class="animated-sections">
-              <!-- Home Subpage -->
-              <section data-id="home" class="animated-section start-page">
-                <div class="section-content vcentered">
+        <ul class="main-menu">
+          <li class="active">
+            <a href="#language" class="nav-anim">
+              <span class="menu-icon fas fa-language"></span>
+              <span class="link-text" id="menu-language">Idioma</span>
+            </a>
+          </li>
+          <li>
+            <a href="#home" class="nav-anim">
+              <span class="menu-icon lnr lnr-home"></span>
+              <span class="link-text" id="menu-home">Inicio</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about-me" class="nav-anim">
+              <span class="menu-icon lnr lnr-user"></span>
+              <span class="link-text" id="menu-about">Sobre mí</span>
+            </a>
+          </li>
+          <li>
+            <a href="#resume" class="nav-anim">
+              <span class="menu-icon lnr lnr-graduation-hat"></span>
+              <span class="link-text" id="menu-resume">Resumen</span>
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-anim">
+              <span class="menu-icon lnr lnr-briefcase"></span>
+              <span class="link-text" id="menu-portfolio">Portfolio</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-anim">
+              <span class="menu-icon lnr lnr-envelope"></span>
+              <span class="link-text" id="menu-contact">Contacto</span>
+            </a>
+          </li>
+        </ul>
 
-                    <div class="row">
-                      <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="title-block">
+        <div class="social-links">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/amontenegrot/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.researchgate.net/profile/Alejandro-Montenegro-Taborda" target="_blank"><i
+                  class="fab fa-researchgate"></i></a></li>
+            <li><a href="https://orcid.org/0000-0002-8988-6359" target="_blank"><i class="fab fa-orcid"></i></a></li>
+            <li><a href="https://github.com/amontenegrot" target="_blank"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
 
-                          <div class="owl-carousel text-rotation">                                    
-                            <div class="item">
-                              <div class="sp-subtitle">Seleccione una lengua</div>
-                            </div>
-                          
-                            <div class="item">
-                              <div class="sp-subtitle">Select a language</div>
-                            </div>
-                          </div>
-                          
-                          <br>
+        <div class="header-buttons">
+          <a href="https://www.alejandromontenegro.com/blog" class="btn btn-primary">Blog</a>
+          <br>
+          <a href="https://www.alejandromontenegro.com/blog" class="btn btn-primary">Curiculum Vitae</a>
+        </div>
 
-                          <a href="https://www.alejandromontenegro.com/investigador" class="btn btn-primary">Español</a>
-                                                    
-                          <a href="https://www.alejandromontenegro.com/researcher" class="btn btn-primary">English</a>
+        <div class="copyrights" id="footer">© <span id='currentYear'></span> Todos los derechos reservados.</div>
+      </header>
 
-                        </div>
+      <!-- Mobile Navigation -->
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- End Mobile Navigation -->
+
+      <!-- Arrows Nav -->
+      <div class="lmpixels-arrows-nav">
+        <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+        <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+      </div>
+      <!-- End Arrows Nav -->
+
+      <div class="content-area">
+        <div class="animated-sections">
+          <!-- Language Subpage -->
+          <section data-id="language" class="animated-section start-page">
+            <div class="section-content vcentered">
+
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="title-block">
+
+                    <div class="owl-carousel text-rotation">
+                      <div class="item">
+                        <div class="sp-subtitle">Seleccione una lengua</div>
+                      </div>
+
+                      <div class="item">
+                        <div class="sp-subtitle">Select a language</div>
                       </div>
                     </div>
 
+                    <br>
+
+                    <button onclick="changeLanguage('es')">Español</button>
+                    <button onclick="changeLanguage('en')">English</button>
+                    
+                  </div>
                 </div>
-              </section>
-              <!-- End of Home Subpage -->
-                            
+              </div>
+
             </div>
-          </div>
+          </section>
+          <!-- End of Language Subpage -->
 
+          <!-- Home Subpage -->
+          <section data-id="home" class="animated-section start-page">
+            <div class="section-content vcentered">
+
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="title-block">
+                    <h2 id="occupation">Investigador</h2>
+                    <div class="owl-carousel text-rotation">
+                      <div class="item">
+                        <div class="sp-subtitle" id="field-1">Lingüística</div>
+                      </div>
+
+                      <div class="item">
+                        <div class="sp-subtitle" id="field-2">Lingüística computacional</div>
+                      </div>
+
+                      <div class="item">
+                        <div class="sp-subtitle" id="field-3">Neurolingüística</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+          <!-- End of Home Subpage -->
+
+          <!-- About Me Subpage -->
+          <section data-id="about-me" class="animated-section">
+            <div class="page-title">
+              <h2 id="about-me-span">Sobre <span>Mí</span></h2>
+            </div>
+
+            <div class="section-content">
+              <!-- Personal Information -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                  <p id="about-me-text">Lingüista con experiencia en Lingüística Computacional, análisis de datos e
+                    investigación sobre el funcionamiento del lenguaje desde una perspectiva
+                    neurobiológica (Neurolingüística).
+                    <br><br>
+                    Capacitado en la solución de problemas lingüísticos haciendo uso de Python
+                    y algoritmos de inteligencia artificial (IA), específicamente en áreas como
+                    el Aprendizaje Automático (<i>Machine Learning</i> en inglés), el Aprendizaje
+                    Profundo (<i>Deep Learning</i>), el Procesamiento del Lenguaje Natural (PLN)
+                    y el Análisis de Datos (<i>Data Analysis</i>).
+                    <br><br>
+                    Experiencia en la investigación neurolingüística haciendo uso de métodos y
+                    técnicas como la electroencefalografía (EEG), el seguimiento ocular
+                    (<i>Eye Tracking</i>) y algunas pruebas psicométricas.
+                    <br><br>
+                    Conocimiento y práctica en el proceso de producción editorial: revisión,
+                    corrección y publicación.
+                  </p>
+                </div>
+
+                <div class="col-xs-12 col-sm-5">
+                  <div class="info-list">
+                    <ul>
+                      <li id="degree">
+                        <span class="title">Título</span>
+                        <span class="value">Pregrado en Lingüística</span>
+                      </li>
+
+                      <li id="profession-text">
+                        <span class="title">Profesión</span>
+                        <span class="value">Investigador</span>
+                      </li>
+
+                      <li id="institution">
+                        <span class="title">Institución</span>
+                        <span class="value">Universidad Nacional de Colombia</span>
+                      </li>
+
+                      <li id="fields-study">
+                        <span class="title">Campos de estudio</span>
+                        <span class="value">Lingüística, Neurociencia, Inteligencia Artificial</span>
+                      </li>
+
+                      <li id="address">
+                        <span class="title">Ubicación</span>
+                        <span class="value">110921, Bogotá D.C., Colombia</span>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Personal Information -->
+
+              <div class="white-space-50"></div>
+
+              <!-- Services -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <div class="block-title">
+                    <h3 id="i-do-span">Aquello que <span>puedo hacer</span></h3>
+                  </div>
+                </div>
+              </div>
+              <p id="i-do-text">Como profesional del lenguaje que aplica el método científico para estudiar los
+                sonidos del habla, las estructuras gramaticales y los múltiples fenómenos
+                lingüísticos que ocurren en cualquier idioma del mundo, he desarrollado habilidades
+                de investigación que se apoyan en áreas como la Lingüística, la Neurociencia, la
+                Estadística y la Ciencia de la computación.
+              </p>
+              <div class="white-space-30"></div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="col-inner">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="lnr fas fa-cubes"></i>
+                        </div>
+                        <div class="ci-text" id="data-processing">
+                          <h4>Procesamiento de datos</h4>
+                          <p>Experiencia en la captación de masiva de datos para
+                            su posterior almacenamiento, preprocesamiento, análisis
+                            e interpretación.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="lnr fas fa-robot"></i>
+                        </div>
+                        <div class="ci-text" id="machine-learning">
+                          <h4>Aprendizaje automático</h4>
+                          <p>Habilidad en la implementación de algoritmos como
+                            <em>K-means</em>, <em>k-nearest neighbors</em>,
+                            Redes Neuronales Convolucionales y
+                            técnicas de Detección de Objetos.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">
+                  <div class="col-inner">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="lnr fas fa-microscope"></i>
+                        </div>
+                        <div class="ci-text" id="laboratory-attitudes">
+                          <h4>Actitudes de laboratorio</h4>
+                          <p>Capacitado en la investigación científica aplicando
+                            protocolos de bioseguridad internacionales y principios
+                            bioéticos.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="lnr fas fa-pencil-alt"></i>
+                        </div>
+                        <div class="ci-text" id="academic-production">
+                          <h4>Producción académica</h4>
+                          <p>Instruido en el proceso de producción académica,
+                            pasando por las distintas etapas editoriales:
+                            producción, revisión, corrección y publicación.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Services -->
+
+            </div>
+          </section>
+          <!-- End of About Me Subpage -->
+
+          <!-- Resume Subpage -->
+          <section data-id="resume" class="animated-section">
+            <div class="page-title">
+              <h2 id="resume">Resumen</h2>
+            </div>
+
+            <div class="section-content">
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-7">
+
+                  <div class="block-title">
+                    <h3 id="education">Educación</h3>
+                  </div>
+
+                  <div class="timeline timeline-second-style clearfix">
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2010 - 2011</h5>
+                        <span class="item-company" id="sena-name">Servicio Nacional de Aprendizaje</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part" id="sena-description">
+                        <h4 class="item-title">Programador de software</h4>
+                        <p>Técnica profesional en tecnologías de la información y las comunicaciones.</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2014 - 2020</h5>
+                        <span class="item-company" id="unal-pre-name">Universidad Nacional de Colombia</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part" id="unal-pre-description">
+                        <h4 class="item-title">Lingüista</h4>
+                        <p>Pregrado en Ciencias Sociales y Humanas.</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2019</h5>
+                        <span class="item-company" id="uniandes-name">Universidad de los Andes</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part" id="uniandes-description">
+                        <h4 class="item-title">Estudiante de intercambio</h4>
+                        <p>Intercambio académico enfocado en Neurociencia.</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2024 - Present</h5>
+                        <span class="item-company" id="unal-pos-name">National University of Colombia</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part" id="unal-pos-description">
+                        <h4 class="item-title">Magister en Neurociencias</h4>
+                        <p>Maestría de investigación en neurociencias.</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="white-space-50"></div>
+
+                  <div class="block-title">
+                    <h3 id="experience">Experiencia</h3>
+                  </div>
+
+                  <div class="timeline timeline-second-style clearfix">
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period" id="experience-period-1">2016 - Actualidad</h5>
+                        <span class="item-company" id="experience-institution-1">Universidad Nacional de Colombia</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part" id="experience-description-1">
+                        <h4 class="item-title">Investigador</h4>
+                        <p>Miembro activo del Grupo de Investigación en Sistemas Inteligentes (LISI) e investigador en
+                          el campo de Lingüística Computacional.</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period" id="experience-period-2">2019 - 2023</h5>
+                        <span class="item-company" id="experience-institution-2">Universidad de los Andes</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part" id="experience-description-2">
+                        <h4 class="item-title">Asistente</h4>
+                        <p>Asistente al Grupo de Investigación en Neurociencia y Comportamiento (SNC).</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period" id="experience-period-3">2019</h5>
+                        <span class="item-company" id="experience-institution-3">Universidad Externado de Colombia</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part" id="experience-description-3">
+                        <h4 class="item-title">Pasante de investigación</h4>
+                        <p>Pasante de investigación en el campo de Neurociencias Social del Laboratorio Interdisciplinar
+                          de Ciencias y Procesos Humanos (LINCIPH).</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Skills & Certificates -->
+                <div class="col-xs-12 col-sm-5">
+
+                  <div class="white-space-50"></div>
+
+                  <!-- Lingistics Skills -->
+                  <div class="block-title">
+                    <h3 id="linguistics-span">Ciencia <span>Lingüística</span></h3>
+                  </div>
+
+                  <div class="skills-info skills-second-style">
+                    <!-- Skill 1 -->
+                    <div class="skill clearfix">
+                      <h4 id="phonetics">Fonética</h4>
+                      <div class="skill-value">85%</div>
+                    </div>
+                    <div class="skill-container skill-1">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 1 -->
+
+                    <!-- Skill 2 -->
+                    <div class="skill clearfix">
+                      <h4 id="phonology">Fonología</h4>
+                      <div class="skill-value">95%</div>
+                    </div>
+                    <div class="skill-container skill-2">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 2 -->
+
+                    <!-- Skill 3 -->
+                    <div class="skill clearfix">
+                      <h4 id="morphology">Morfología</h4>
+                      <div class="skill-value">60%</div>
+                    </div>
+                    <div class="skill-container skill-3">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 3 -->
+
+                    <!-- Skill 4 -->
+                    <div class="skill clearfix">
+                      <h4 id="semantics">Semántica</h4>
+                      <div class="skill-value">90%</div>
+                    </div>
+                    <div class="skill-container skill-4">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 4 -->
+
+                    <!-- Skill 5 -->
+                    <div class="skill clearfix">
+                      <h4 id="syntax">Sintaxis</h4>
+                      <div class="skill-value">70%</div>
+                    </div>
+                    <div class="skill-container skill-5">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 5 -->                    
+
+                    <!-- Skill 6 -->
+                    <div class="skill clearfix">
+                      <h4 id="pragmatics">Pragmática</h4>
+                      <div class="skill-value">80%</div>
+                    </div>
+                    <div class="skill-container skill-6">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 6 -->
+
+                  </div>
+                  <!-- End of Lingistics Skills -->
+
+                  <div class="white-space-10"></div>
+
+                  <!-- Coding Skills -->
+                  <div class="block-title">
+                    <h3 id="ai-span">Inteligencia <span>Artificial</span></h3>
+                  </div>
+
+                  <div class="skills-info skills-second-style">
+
+                    <!-- Skill 7 -->
+                    <div class="skill clearfix">
+                      <h4 id="machine-learning">Machine Learning</h4>
+                      <div class="skill-value">90%</div>
+                    </div>
+                    <div class="skill-container skill-7">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 7 -->
+
+                    <!-- Skill 8 -->
+                    <div class="skill clearfix">
+                      <h4 id="deep-learning">Deep Learning</h4>
+                      <div class="skill-value">80%</div>
+                    </div>
+                    <div class="skill-container skill-8">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 8 -->
+
+                    <!-- Skill 9 -->
+                    <div class="skill clearfix">
+                      <h4 id="nlp">Procesamiento de Lenguaje Natural</h4>
+                      <div class="skill-value">85%</div>
+                    </div>
+                    <div class="skill-container skill-9">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 9 -->
+
+                    <!-- Skill 10 -->
+                    <div class="skill clearfix">
+                      <h4 id="data-analytics">Análisis de datos</h4>
+                      <div class="skill-value">90%</div>
+                    </div>
+                    <div class="skill-container skill-10">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 10 -->
+
+                    <!-- Skill 11 -->
+                    <div class="skill clearfix">
+                      <h4 id="prompt-engineering">Ingeniería de Prompts</h4>
+                      <div class="skill-value">95%</div>
+                    </div>
+                    <div class="skill-container skill-11">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 11 -->
+
+                    <!-- Skill 12 -->
+                    <div class="skill clearfix">
+                      <h4 id="llms">Grandes Modelos del Lenguaje</h4>
+                      <div class="skill-value">80%</div>
+                    </div>
+                    <div class="skill-container skill-12">
+                      <div class="skill-percentage"></div>
+                    </div>
+                    <!-- End of Skill 12 -->
+                  </div>
+                  <!-- End of Coding Skills -->
+
+                  <div class="white-space-10"></div>
+
+                  <!-- Knowledges -->
+                  <div class="block-title">
+                    <h3 id="knowledges">Otros conocimientos</h3>
+                  </div>
+
+                  <ul class="knowledges" id="knowledges-list">
+                    <li>Python</li>
+                    <li>Colab</li>
+                    <li>Jupyter</li>
+                    <li>Pandas</li>
+                    <li>Scikit-Learn</li>
+                    <li>Keras</li>
+                    <li>Plotly</li>
+                    <li>LaTeX</li>
+                    <li>SQL</li>
+                    <li>PostgreSQL</li>
+                    <li>DBeaver</li>
+                    <li>Electroencefalografía (EEG)</li>
+                    <li>Seguimiento ocular</li>
+                    <li>Psicometría</li>
+                  </ul>
+                  <!-- End of Knowledges -->
+
+                </div>
+                <!-- End of Skills & Certificates -->
+              </div>
+
+              <div class="white-space-50"></div>
+
+              <!-- Certificates -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <div class="block-title">
+                    <h3 id="certificates">Certificados</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <!-- Certificate 1 -->
+                <div class="col-xs-12 col-sm-6">
+                  <div class="certificate-item clearfix">
+                    <div class="certi-logo">
+                      <img src="img/certificates/unal.png" alt="logo">
+                    </div>
+
+                    <div class="certi-content">
+                      <div class="certi-title">
+                        <h4 id="certificate-1-name">Gestión editorial</h4>
+                      </div>
+                      <div class="certi-id" id="certificate-1-date">
+                        <span>03 Octubre 2016</span>
+                      </div>
+                      <div class="certi-date" id="certificate-1-type">
+                        <span>Presencial</span>
+                      </div>
+                      <div class="certi-company">
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Certificate 1 -->
+
+                <!-- Certificate 2 -->
+                <div class="col-xs-12 col-sm-6">
+                  <div class="certificate-item clearfix">
+                    <div class="certi-logo">
+                      <img src="img/certificates/coursera.png" alt="logo">
+                    </div>
+
+                    <div class="certi-content">
+                      <div class="certi-title">
+                        <h4 id="certificate-2-name">Visualización de datos</h4>
+                      </div>
+                      <div class="certi-id" id="certificate-2-date">
+                        <span>02 Mayo 2020</span>
+                      </div>
+                      <div class="certi-date" id="certificate-2-type">
+                        <span>Virtual</span>
+                      </div>
+                      <div class="certi-company">
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Certificate 2 -->
+
+                <!-- Certificate 3 -->
+                <div class="col-xs-12 col-sm-6">
+                  <div class="certificate-item clearfix">
+                    <div class="certi-logo">
+                      <img src="img/certificates/linkedin.png" alt="logo">
+                    </div>
+
+                    <div class="certi-content">
+                      <div class="certi-title">
+                        <h4 id="certificate-3-name">Fundamentos de Big Data</h4>
+                      </div>
+                      <div class="certi-id" id="certificate-3-name">
+                        <span>02 Agosto 2021</span>
+                      </div>
+                      <div class="certi-date" id="certificate-3-type">
+                        <span>Virtual</span>
+                      </div>
+                      <div class="certi-company">
+                        <span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Certificate 3 -->
+
+              </div>
+              <!-- End of Certificates -->
+            </div>
+          </section>
+          <!-- End of Resume Subpage -->
+
+          <!-- Portfolio Subpage -->
+          <section data-id="portfolio" class="animated-section">
+            <div class="page-title">
+              <h2>Portfolio</h2>
+            </div>
+
+            <div class="section-content">
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <!-- Portfolio Content -->
+                  <div class="portfolio-content">
+
+                    <ul class="portfolio-filters">
+                      <li class="active">
+                        <a class="filter btn btn-sm btn-link" data-group="category_todo" id="filter-all">Todo</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="category_publicaciones" id="filter-publications">Publicaciones</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="category_eventos" id="filter-events">Eventos</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="category_experiencia" id="filter-experiences">Experiencia</a>
+                      </li>
+                      <li>
+                        <a class="filter btn btn-sm btn-link" data-group="category_proyectos" id="filter-projects">Proyectos</a>
+                      </li>
+                    </ul>
+
+                    <!-- Portfolio Grid -->
+                    <div class="portfolio-grid three-columns">
+
+                      <figure class="item standard" data-groups='["category_todo", "category_publicaciones"]'>
+                        <div class="portfolio-item-img">
+                          <img src="img/portfolio/1.jpg" alt="Media Project 2" title="" />
+                          <a href="tesis-de-grado.html" class="ajax-page-load"></a>
+                        </div>
+                        <i class="far fa-file-alt"></i>
+                        <h4 class="name" id="portfolio-1-name">Tesis de grado</h4>
+                        <span class="category" id="portfolio-1-category">Publicaciones</span>
+                      </figure>
+
+                      <figure class="item standard" data-groups='["category_todo", "category_eventos"]'>
+                        <div class="portfolio-item-img">
+                          <img src="img/portfolio/2.jpg" alt="Media Project 2" title="" />
+                          <a href="III-jornadas-montes.html" class="ajax-page-load"></a>
+                        </div>
+                        <i class="far fa-file-alt"></i>
+                        <h4 class="name" id="portfolio-2-name">III Jornadas Montes</h4>
+                        <span class="category" id="portfolio-2-category">Eventos</span>
+                      </figure>
+
+                      <figure class="item standard" data-groups='["category_todo", "category_experiencia"]'>
+                        <div class="portfolio-item-img">
+                          <img src="img/portfolio/3.jpg" alt="Media Project 1" title="" />
+                          <a href="pasantia-de-investigacion-linciph.html" class="ajax-page-load"></a>
+                        </div>
+                        <i class="far fa-file-alt"></i>
+                        <h4 class="name" id="portfolio-3-name">Pasantía de investigación</h4>
+                        <span class="category" id="portfolio-3-category">Experiencia</span>
+                      </figure>
+
+                      <figure class="item standard" data-groups='["category_todo", "category_proyectos"]'>
+                        <div class="portfolio-item-img">
+                          <img src="img/portfolio/4.jpg" alt="Media Project 1" title="" />
+                          <a href="sars-cov-2.html" class="ajax-page-load"></a>
+                        </div>
+                        <i class="far fa-file-alt"></i>
+                        <h4 class="name" id="portfolio-4-name">SARS-CoV-2</h4>
+                        <span class="category" id="portfolio-4-category">Proyectos</span>
+                      </figure>
+                  
+                    </div>
+                  </div>
+                  <!-- End of Portfolio Content -->
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End of Portfolio Subpage -->
+
+          <!-- Contact Subpage -->
+          <section data-id="contact" class="animated-section">
+            <div class="page-title">
+              <h2 id="contact">Contacto</h2>
+            </div>                
+
+            <div class="section-content">
+              <div class="row">
+                <!-- Contact Info -->                  
+                  <div class="lm-info-block gray-default">
+                    <i class="fas fa-inbox"></i>
+                    <h4><a href="mailto: amontenegrot@outlook.com" class="btn btn-secondary" id="email">Correo electrónico</a></h4>
+                    <span class="lm-info-block-value"></span>
+                    <span class="lm-info-block-text"></span>
+                  </div>                     
+
+                    <div class="lm-info-block gray-default">
+                      <i class="fas fa-mobile-alt"></i>
+                      <h4><a href="tel:+573193391020" class="btn btn-secondary" id="phone">Teléfono</a></h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                  
+                    <div class="lm-info-block gray-default">
+                      <i class="fab fa-whatsapp"></i>
+                      <h4><a href="https://wa.me/573193391020" target="_blank" class="btn btn-secondary" id="whatsapp">WhatsApp</a></h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+
+                    <div class="lm-info-block gray-default">
+                      <i class="fab fa-telegram-plane"></i>
+                      <h4><a href="https://t.me/amontenegrot" target="_blank" class="btn btn-secondary" id="telegram">Telegram</a></h4>
+                      <span class="lm-info-block-value"></span>
+                      <span class="lm-info-block-text"></span>
+                    </div>
+                                    
+                <!-- End of Contact Info -->                    
+              </div>
+            </div>
+          </section>
+          <!-- End of Contact Subpage -->
+
+        </div>
       </div>
+
     </div>
+  </div>
 
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/animating.js"></script>
-    <script src="js/copyright.js"></script>
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/animating.js"></script>
 
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src='js/perfect-scrollbar.min.js'></script>
+  <script src='js/jquery.shuffle.min.js'></script>
+  <script src='js/masonry.pkgd.min.js'></script>
+  <script src='js/owl.carousel.min.js'></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
 
-    <script src='js/perfect-scrollbar.min.js'></script>
-    <script src='js/jquery.shuffle.min.js'></script>
-    <script src='js/masonry.pkgd.min.js'></script>
-    <script src='js/owl.carousel.min.js'></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+  <script src="js/jquery.googlemap.js"></script>
+  <script src="js/validator.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/current-year.js"></script>
+  <script src="js/translations.js"></script>
+</body>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
-    <script src="js/jquery.googlemap.js"></script>
-    <script src="js/validator.js"></script>
-    <script src="js/main.js"></script>
-  </body>
 </html>
