@@ -8,6 +8,7 @@ const translations = {
         "menu-about": "Sobre mí",
         "menu-resume": "Resumen",
         "menu-portfolio": "Portfolio",
+        "menu-presentations": "Presentaciones",
         "menu-contact": "Contacto",
         "cv-button": "Curriculum Vitae",
 
@@ -115,6 +116,7 @@ const translations = {
         "menu-about": "About Me",
         "menu-resume": "Resume",
         "menu-portfolio": "Portfolio",
+        "menu-presentations": "Presentations",
         "menu-contact": "Contact",
         "cv-button": "Curriculum Vitae",
 
@@ -222,6 +224,7 @@ const translations = {
       "menu-about": "À propos",
       "menu-resume": "CV",
       "menu-portfolio": "Portfolio",
+      "menu-presentations": "Présentations",
       "menu-contact": "Contact",
       "cv-button": "Curriculum Vitae",
 
@@ -329,6 +332,7 @@ const translations = {
       "menu-about": "Sobre mim",
       "menu-resume": "Currículo",
       "menu-portfolio": "Portfólio",
+      "menu-presentations": "Apresentações",
       "menu-contact": "Contato",
       "cv-button": "Curriculum Vitae",
 
@@ -436,6 +440,7 @@ const translations = {
       "menu-about": "Über mich",
       "menu-resume": "Lebenslauf",
       "menu-portfolio": "Portfolio",
+      "menu-presentations": "Präsentationen",
       "menu-contact": "Kontakt",
       "cv-button": "Lebenslauf",
 
@@ -543,6 +548,7 @@ const translations = {
       "menu-about": "Обо мне",
       "menu-resume": "Резюме",
       "menu-portfolio": "Портфолио",
+      "menu-presentations": "Презентации",
       "menu-contact": "Контакты",
       "cv-button": "Резюме",
 
