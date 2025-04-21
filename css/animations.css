@@ -1295,23 +1295,4 @@
 	-webkit-animation-delay: 1s;
 	animation-delay: 1s;
 }
-
-@media (max-width: 576px) {
-	/* Permitir que la sección se ajuste en altura en móviles pequeños */
-	.start-page .section-content.vcentered {
-	  height: auto;
-	  padding: 40px 15px;
-	  display: block;      /* en lugar de flex centering */
-	  text-align: center;  /* centra el texto */
-	}
-	/* Reducir tamaños de fuente para que quepan bien */
-	.start-page .title-block h2 {
-	  font-size: 1.75rem;
-	  margin-bottom: 0.5rem;
-	}
-	.start-page .text-rotation .sp-subtitle {
-	  font-size: 1.25rem;
-	  line-height: 1.4;
-	}
-  }
   
