@@ -27,7 +27,7 @@ const translations = {
         "i-do-span": "Aquello que <span>puedo hacer",
         "i-do-text": "Como profesional del lenguaje que aplica el método científico para estudiar los sonidos del habla, las estructuras gramaticales y los múltiples fenómenos lingüísticos que ocurren en cualquier idioma del mundo, he desarrollado habilidades de investigación que se apoyan en áreas como la Lingüística, la Neurociencia, la Estadística y la Ciencia de la computación.",
         "data-processing": "<h4>Procesamiento de datos</h4><p>Experiencia en la captación de masiva de datos para su posterior almacenamiento, preprocesamiento, análisis e interpretación.",
-        "machine-learning": "<h4>Aprendizaje automático</h4><p>Habilidad en la implementación de algoritmos como <em>K-means</em>, <em>k-nearest neighbors</em>, Redes Neuronales Convolucionales y técnicas de Detección de Objetos.</p>",
+        "artificial-intelligence": "<h4>Inteligencia artificial</h4><p>Habilidad en la implementación de distintos algoritmos de <em>Machine Learning</em>, <em>Deep Learning</em>, <em>IA generativa</em> y <em>Natural Language Processing</em>.</p>",
         "laboratory-attitudes": "<h4>Actitudes de laboratorio</h4><p>Capacitado en la investigación científica aplicando protocolos de bioseguridad internacionales y principios bioéticos.</p>",
         "academic-production": "<h4>Producción académica</h4><p>Instruido en el proceso de producción académica, pasando por las distintas etapas editoriales: producción, revisión, corrección y publicación.</p>",
 
@@ -135,7 +135,7 @@ const translations = {
         "i-do-span": "What <span>I Do</span>",
         "i-do-text": "As a language professional who applies the scientific method to study the sounds of speech, grammatical structures and the multiple linguistic phenomena that occur in any language in the world, I have developed research skills that rely on areas such as Linguistics, Neuroscience, Statistics and Computer Science.",
         "data-processing": "<h4>Data Processing</h4><p>Experience in capturing massive data for later storage, pre-processing, analysis and interpretation.</p>",
-        "machine-learning": "<h4>Machine Learning</h4><p>Ability to implement algorithms such as K-means, k-nearest neighbors, Convolutional Neural Networks and Object Detection techniques.</p>",
+        "artificial-intelligence": "<h4>Artificial Intelligence</h4><p>Ability in the implementation of different Machine Learning, Deep Learning, Generative AI and Natural Language Processing algorithms.</p>",
         "laboratory-attitudes": "<h4>Laboratory Attitudes</h4><p>Trained in scientific research applying international biosafety protocols and bioethical principles.</p>",
         "academic-production": "<h4>Academic Production</h4><p>Instructed in the academic production process, going through the different editorial stages: production, revision, correction and publication.</p>",
         
@@ -243,7 +243,7 @@ const translations = {
       "i-do-span": "Ce que <span>je fais</span>",
       "i-do-text": "En tant que professionnel de la langue appliquant la méthode scientifique pour étudier les sons de la parole, les structures grammaticales et les multiples phénomènes linguistiques qui se produisent dans n'importe quelle langue du monde, j'ai développé des compétences de recherche qui reposent sur des domaines tels que la linguistique, les neurosciences, les statistiques et l'informatique.",
       "data-processing": "<h4>Traitement de données</h4><p>Expérience dans la capture massive de données pour leur stockage ultérieur, prétraitement, analyse et interprétation.",
-      "machine-learning": "<h4>Apprentissage automatique</h4><p>Compétence dans l'implémentation d'algorithmes tels que <em>K-means</em>, <em>k-nearest neighbors</em>, Réseaux Neuronaux Convolutionnels et techniques de Détection d'Objets.</p>",
+      "artificial-intelligence": "<h4>Intelligence artificielle</h4><p>Capacité à mettre en œuvre différents algorithmes d'apprentissage automatique, d'apprentissage profond, d'IA générative et de traitement du langage naturel.</p>",
       "laboratory-attitudes": "<h4>Attitudes en laboratoire</h4><p>Formé à la recherche scientifique en appliquant des protocoles internationaux de biosécurité et des principes bioéthiques.</p>",
       "academic-production": "<h4>Production académique</h4><p>Initié au processus de production académique, en passant par les différentes étapes éditoriales : production, révision, correction et publication.</p>",
 
@@ -351,7 +351,7 @@ const translations = {
       "i-do-span": "O que <span>faço</span>",
       "i-do-text": "Como profissional de linguagem que aplica o método científico para estudar os sons da fala, estruturas gramaticais e os múltiplos fenômenos linguísticos que ocorrem em qualquer idioma do mundo, desenvolvi habilidades de pesquisa que se baseiam em áreas como linguística, neurociência, estatística e ciência da computação.",
       "data-processing": "<h4>Processamento de dados</h4><p>Experiência na captura massiva de dados para posterior armazenamento, pré-processamento, análise e interpretação.",
-      "machine-learning": "<h4>Aprendizado de Máquina</h4><p>Hábil na implementação de algoritmos como <em>K-means</em>, <em>k-nearest neighbors</em>, Redes Neurais Convolucionais e técnicas de Detecção de Objetos.</p>",
+      "artificial-intelligence": "<h4>Inteligência artificial</h4><p>Capacidade de implementar diferentes algoritmos de aprendizado de máquina, aprendizado profundo, IA generativa e processamento de linguagem natural.</p>",
       "laboratory-attitudes": "<h4>Atitudes de laboratório</h4><p>Treinado em pesquisa científica aplicando protocolos internacionais de biossegurança e princípios bioéticos.</p>",
       "academic-production": "<h4>Produção acadêmica</h4><p>Iniciado no processo de produção acadêmica, passando pelas diferentes etapas editoriais: produção, revisão, correção e publicação.</p>",
 
@@ -459,9 +459,9 @@ const translations = {
       "i-do-span": "Was <span>ich mache</span>",
       "i-do-text": "Als Sprachprofi, der die wissenschaftliche Methode anwendet, um die Laute der Sprache, grammatische Strukturen und die vielfältigen sprachlichen Phänomene zu untersuchen, die in jeder Sprache der Welt vorkommen, habe ich Forschungskompetenzen entwickelt, die auf Bereichen wie Linguistik, Neurowissenschaften, Statistik und Informatik beruhen.",
       "data-processing": "<h4>Datenverarbeitung</h4><p>Erfahrung in der massenhaften Datenerfassung zur späteren Speicherung, Vorverarbeitung, Analyse und Interpretation.</p>",
-      "machine-learning": "<h4>Maschinelles Lernen</h4><p>Fähigkeit zur Implementierung von Algorithmen wie <em>K-means</em>, <em>k-nearest neighbors</em>, Convolutional Neural Networks und Objekterkennungstechniken.</p>",
+      "artificial-intelligence": "<h4>Künstliche intelligenz</h4><p>Fähigkeit zur Implementierung verschiedener Algorithmen für maschinelles Lernen, Deep Learning, generative KI und Verarbeitung natürlicher Sprache.</p>",
       "laboratory-attitudes": "<h4>Laborverhalten</h4><p>Ausbildung in wissenschaftlicher Forschung unter Anwendung internationaler Biosicherheitsprotokolle und bioethischer Prinzipien.</p>",
-      "academic-production": "<h4>Akademische Produktion</h4><p>Eingeführt in den Prozess der akademischen Produktion, durchläuft die verschiedenen redaktionellen Schritte: Produktion, Überarbeitung, Korrektur und Veröffentlichung.</p>",
+      "academic-production": "<h4>Akademische produktion</h4><p>Eingeführt in den Prozess der akademischen Produktion, durchläuft die verschiedenen redaktionellen Schritte: Produktion, Überarbeitung, Korrektur und Veröffentlichung.</p>",
 
       "resume": "Lebenslauf",
       "education": "Bildung",
@@ -567,7 +567,7 @@ const translations = {
       "i-do-span": "Что <span>я делаю</span>",
       "i-do-text": "Как специалист по языкам, который применяет научный метод для изучения звуков речи, грамматических структур и множества лингвистических феноменов, встречающихся в любом языке мира, я развил исследовательские навыки, основанные на таких областях, как лингвистика, нейронаука, статистика и компьютерные науки.",
       "data-processing": "<h4>Обработка данных</h4><p>Опыт в массовом сборе данных для последующего хранения, предварительной обработки, анализа и интерпретации.</p>",
-      "machine-learning": "<h4>Машинное обучение</h4><p>Умение реализовывать алгоритмы, такие как <em>K-means</em>, <em>k-nearest neighbors</em>, сверточные нейронные сети и методы обнаружения объектов.</p>",
+      "artificial-intelligence": "<h4>Искусственный интеллект</h4><p>Способность реализовывать различные алгоритмы машинного обучения, глубокого обучения, генеративного ИИ и обработки естественного языка.</p>",
       "laboratory-attitudes": "<h4>Лабораторные навыки</h4><p>Обучение научным исследованиям с применением международных протоколов биобезопасности и биоэтических принципов.</p>",
       "academic-production": "<h4>Академическая продукция</h4><p>Введение в процесс академической продукции, прохождение различных редакционных этапов: производство, рецензирование, корректура и публикация.</p>",
 
