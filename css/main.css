@@ -2,7 +2,7 @@
 * Template Name: BreezyCV - Resume / CV / vCard / Portfolio Template
 * Author: LMPixels
 * Author URL: http://themeforest.net/user/lmpixels
-* Version: 1.3.0
+* Version: 1.6.0
 */
 
 /* ------------------------------------------------------------
@@ -530,11 +530,11 @@ input[type="submit"]:focus {
 
 .animated-section {
   position: absolute;
-  background-color: #fff;
+  background-color: transparent;
   height: 100%;
   width: 100%;
   border-radius: 30px;
-  padding: 60px;
+  padding: 0;
   opacity: 0;
   overflow: auto;
   visibility: hidden;
@@ -548,6 +548,21 @@ input[type="submit"]:focus {
   background-position: center;
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.section-content {
+  background-color: #fff;
+  padding: 60px;
+  position: relative;
+  height: auto;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -ms-transform: none;
 }
 
 .single-page-content {
@@ -1296,48 +1311,52 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 /* --- Skills Values --- */
-.skills-second-style .skill-container.skill-1 .skill-percentage {
+.skills-second-style .skill-container.skill-ling-1 .skill-percentage {
   width: 85%;
 }
 
-.skills-second-style .skill-container.skill-2 .skill-percentage {
+.skills-second-style .skill-container.skill-ling-2 .skill-percentage {
   width: 95%;
 }
 
-.skills-second-style .skill-container.skill-3 .skill-percentage {
+.skills-second-style .skill-container.skill-ling-3 .skill-percentage {
   width: 60%;
 }
 
-.skills-second-style .skill-container.skill-4 .skill-percentage {
+.skills-second-style .skill-container.skill-ling-4 .skill-percentage {
+  width: 95%;
+}
+
+.skills-second-style .skill-container.skill-ling-5 .skill-percentage {
   width: 70%;
 }
 
-.skills-second-style .skill-container.skill-5 .skill-percentage {
-  width: 90%;
-}
-
-.skills-second-style .skill-container.skill-6 .skill-percentage {
-  width: 75%;
-}
-
-.skills-second-style .skill-container.skill-7 .skill-percentage {
-  width: 95%;
-}
-
-.skills-second-style .skill-container.skill-8 .skill-percentage {
+.skills-second-style .skill-container.skill-ling-6 .skill-percentage {
   width: 80%;
 }
 
-.skills-second-style .skill-container.skill-9 .skill-percentage {
-  width: 60%;
-}
-
-.skills-second-style .skill-container.skill-10 .skill-percentage {
-  width: 75%;
-}
-
-.skills-second-style .skill-container.skill-11 .skill-percentage {
+.skills-second-style .skill-container.skill-ai-1 .skill-percentage {
   width: 90%;
+}
+
+.skills-second-style .skill-container.skill-ai-2 .skill-percentage {
+  width: 90%;
+}
+
+.skills-second-style .skill-container.skill-ai-3 .skill-percentage {
+  width: 95%;
+}
+
+.skills-second-style .skill-container.skill-ai-4 .skill-percentage {
+  width: 95%;
+}
+
+.skills-second-style .skill-container.skill-ai-5 .skill-percentage {
+  width: 85%;
+}
+
+.skills-second-style .skill-container.skill-ai-6 .skill-percentage {
+  width: 95%;
 }
 
 /* --- End of Skills Values --- */
@@ -1451,12 +1470,21 @@ textarea.form-control, textarea.form-control:focus {
 }
 /* --- End of Contact Form --- */
 
-.map {
+/* --- Google Map --- */
+.lmpixels-map {
   width: 100%;
-  height: 140px;
   margin: 0 0 35px;
 }
 
+.lmpixels-map iframe {
+  height: 140px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  line-height: 1;
+  border: none;
+}
+/* --- End of Google Map --- */
 
 /* --- Portfolio --- */
 .portfolio-filters {
@@ -2477,6 +2505,11 @@ blockquote {
     width: 50%;
   }
 
+  .section-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
   .info-list {
     margin-top: 20px;
   }
@@ -2869,10 +2902,10 @@ blockquote {
 }
 
 .title-block .sp-subtitle {
-  color: rgb(0, 0, 0);
-  font-size: 60px;
-  line-height: 74px;
-  margin: 0;
+  color: #888;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 5px 0;
   text-align: center;
 }
 
@@ -2976,9 +3009,6 @@ blockquote {
   }
 
   .title-block .sp-subtitle {
-    font-size: 36px;
-    line-height: 56px;
-    margin: 0 0 10px;
-    text-align: center;
+    font-size: 18px;
   }
 }
