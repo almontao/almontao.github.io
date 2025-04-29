@@ -105,7 +105,7 @@ const translations = {
         "whatsapp": "WhatsApp",
         "telegram": "Telegram",
 
-        footer: "© <span id='currentYear'></span> Todos los derechos reservados."
+        footer: "© <span class='current-year'></span> Todos los derechos reservados."
     },
     en: {
         profession: "Linguist",
@@ -213,7 +213,7 @@ const translations = {
         "whatsapp": "WhatsApp",
         "telegram": "Telegram",
 
-        footer: "© <span id='currentYear'></span> All rights reserved."
+        footer: "© <span class='current-year'></span> All rights reserved."
     },
     fr: {
       profession: "Linguiste",
@@ -321,7 +321,7 @@ const translations = {
       "whatsapp": "WhatsApp",
       "telegram": "Telegram",
 
-      footer: "© <span id='currentYear'></span> Tous droits réservés."
+      footer: "© <span class='current-year'></span> Tous droits réservés."
     },
     pt: {
       profession: "Linguista",
@@ -429,7 +429,7 @@ const translations = {
       "whatsapp": "WhatsApp",
       "telegram": "Telegram",
 
-      footer: "© <span id='currentYear'></span> Todos os direitos reservados."
+      footer: "© <span class='current-year'></span> Todos os direitos reservados."
     },
     de: {
       profession: "Linguist",
@@ -537,7 +537,7 @@ const translations = {
       "whatsapp": "WhatsApp",
       "telegram": "Telegram",
 
-      footer: "© <span id='currentYear'></span> Alle Rechte vorbehalten."
+      footer: "© <span class='current-year'></span> Alle Rechte vorbehalten."
     },
     ru: {
       profession: "Лингвист",
@@ -645,16 +645,29 @@ const translations = {
       "whatsapp": "WhatsApp",
       "telegram": "Telegram",
 
-      footer: "© <span id='currentYear'></span> Все права защищены."
+      footer: "© <span class='current-year'></span> Все права защищены."
     }
 
 };
 
+// function changeLanguage(lang) {
+//     document.querySelectorAll("[id]").forEach(element => {
+//       const key = element.id;
+//       if (translations[lang][key]) {
+//         element.innerHTML = translations[lang][key];
+//       }
+//     });
+//   }
+
+
 function changeLanguage(lang) {
-    document.querySelectorAll("[id]").forEach(element => {
-      const key = element.id;
-      if (translations[lang][key]) {
-        element.innerHTML = translations[lang][key];
-      }
-    });
-  }
+  document.querySelectorAll("[id]").forEach(element => {
+    const key = element.id;
+    if (translations[lang][key]) {
+      element.innerHTML = translations[lang][key];
+    }
+  });
+
+// Después de inyectar el HTML traducido, actualiza los años
+updateAllYears();
+}
