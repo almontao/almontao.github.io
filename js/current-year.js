@@ -5,21 +5,23 @@
 * Version: 1.3.0
 */
 
-// Función para obtener el año actual
+// Función que devuelve el año actual
 function getCurrentYear() {
-    return new Date().getFullYear();
+  return new Date().getFullYear();
+}
+
+// Inserta el año en el elemento con id="currentYear"
+function updateYear() {
+  const currentYearElement = document.getElementById('currentYear');
+  if (currentYearElement) {
+    currentYearElement.textContent = getCurrentYear();
   }
+}
+
+// Cuando el DOM esté listo, ejecuta updateYear()
+document.addEventListener('DOMContentLoaded', updateYear);
   
-  // Actualiza el año en la página
-  function updateYear() {
-    const currentYearElement = document.getElementById('currentYear');
-    if (currentYearElement) {
-      currentYearElement.textContent = getCurrentYear();
-    }
-  }
-  
-  // Llama a la función para actualizar el año cuando la página se cargue
-  window.addEventListener('DOMContentLoaded', function () {
-    updateYear();
-  });
-  
+  // // Llama a la función para actualizar el año cuando la página se cargue
+  // window.addEventListener('DOMContentLoaded', function () {
+  //   updateYear();
+  // });
