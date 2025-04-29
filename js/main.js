@@ -120,6 +120,10 @@
 
     // On Document Load
     $(document).ready(function () {
+        
+        changeLanguage('es');  // Inicializo la interfaz en español
+
+
         var movementStrength = 23;
         var height = movementStrength / $(document).height();
         var width = movementStrength / $(document).width();
