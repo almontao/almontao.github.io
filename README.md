@@ -40,6 +40,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 - Editar la traducción de analitica de datos (id= "data-analytics")
 - Agregar el id para la sección de portfolio y sus respectivas traducciones
 - Traducir paginas del portfolio
-- Ajustar los derechos reservados de la seccion recursos adicionales
 - Ajustar pagina 404
-- Ajustar las traducciones automaticas de la seccion Home
