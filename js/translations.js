@@ -501,7 +501,7 @@ const translations = {
     "machine-learning-skill": "Maschinelles Lernen",
     "deep-learning": "Tiefes Lernen",
     "nlp": "Verarbeitung natürlicher Sprache",
-    "data-analytics": "Datenanalyse",
+    "data-analytics": "Datenanalytik",
     "prompt-engineering": "Prompt-Engineering",
     "llms": "Große Sprachmodelle",
 
@@ -610,7 +610,7 @@ const translations = {
     "machine-learning-skill": "Машинное обучение",
     "deep-learning": "Глубокое обучение",
     "nlp": "Обработка естественного языка",
-    "data-analytics": "Анализ данных",
+    "data-analytics": "Аналитика данных",
     "prompt-engineering": "Инжиниринг запросов",
     "llms": "Модели большого масштаба",
 

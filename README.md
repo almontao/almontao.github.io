@@ -37,7 +37,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 # Ajustes futuros
-- Editar la traducción de analitica de datos (id= "data-analytics")
 - Agregar el id para la sección de portfolio y sus respectivas traducciones
 - Traducir paginas del portfolio
 - Ajustar pagina 404
