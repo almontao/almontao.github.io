@@ -99,6 +99,26 @@ const translations = {
     "portfolio-4-name": "SARS-CoV-2",
     "portfolio-4-category": "Proyectos",
 
+    "resources": "Recursos",
+    "resource-subtitle-1": "Artículos y presentaciones",  // Papers and slides
+    "resource-1-type": "Publicaciones",  //Publications
+    "resource-1-name": "Producción académica",  //Academic Productions
+    "resource-1-button": "Ver listado",  //View list
+    "resource-1-description": "Artículos y capítulos de libros.",  //Papers and book chapters.
+    "resource-2-type": "Presentaciones",  //Slides
+    "resource-2-name": "Recursos adicionales",  //Additional Resources
+    "resource-2-button": "Ver listado",  //View list
+    "resource-2-description": "Material usado en eventos.",  //Materials used in events.
+    "resource-subtitle-2": "Trabajos de grado",  // Academic thesis
+    "resource-3-type": "Pregrado",  //Undergraduate
+    "resource-3-name": "Lingüística",  //Linguistics
+    "resource-3-button": "Ver en repositorio",  //View in repository
+    "resource-3-desription": "Electrofisiología cerebral y fijaciones oculares durante el proceso de producción articulatoria de los rasgos vocálicos del español",  //Cerebral electrophysiology and ocular fixations during the articulatory production process of the vowel features of Spanish
+    "resource-4-type": "Postgrado",  //Postgraduate
+    "resource-4-name": "Neurosciences",  //Neurosciences
+    "resource-4-button": "Sin publicar",  //Unpublished
+    "resource-4-description": "Temporalidad lingüística y aprendizaje supervisado: clasificación de los campos léxicos de pasado, presente y futuro mediante el procesamiento de imágenes de resonancia magnética funcional (IRMf) y estímulos narrativos de lenguaje natural",  //Linguistic temporality and supervised learning: classification of the lexical fields of past, present and future through Functional Magnetic Resonance Imaging (fMRI) processing and narrative natural language stimuli
+
     "contact": "Contacto",
     "email": "Correo electrónico",
     "phone": "Teléfono",
