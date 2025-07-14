@@ -115,7 +115,7 @@ const translations = {
     "resource-3-button": "Ver en repositorio",  //View in repository
     "resource-3-desription": "Electrofisiología cerebral y fijaciones oculares durante el proceso de producción articulatoria de los rasgos vocálicos del español",  //Cerebral electrophysiology and ocular fixations during the articulatory production process of the vowel features of Spanish
     "resource-4-type": "Postgrado",  //Postgraduate
-    "resource-4-name": "Neurosciences",  //Neurosciences
+    "resource-4-name": "Neurociencias",  //Neurosciences
     "resource-4-button": "Sin publicar",  //Unpublished
     "resource-4-description": "Temporalidad lingüística y aprendizaje supervisado: clasificación de los campos léxicos de pasado, presente y futuro mediante el procesamiento de imágenes de resonancia magnética funcional (IRMf) y estímulos narrativos de lenguaje natural",  //Linguistic temporality and supervised learning: classification of the lexical fields of past, present and future through Functional Magnetic Resonance Imaging (fMRI) processing and narrative natural language stimuli
 
