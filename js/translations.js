@@ -117,7 +117,7 @@ const translations = {
     "resource-4-type": "Postgrado",
     "resource-4-name": "Neurociencias",
     "resource-4-button": "Sin publicar",
-    "resource-4-description": "Temporalidad lingüística y aprendizaje supervisado: clasificación de los campos léxicos de pasado, presente y futuro mediante el procesamiento de imágenes de resonancia magnética funcional (IRMf) y estímulos narrativos de lenguaje natural",
+    "resource-4-description": "Mapeo cortical de la flexión temporal en habla naturalista",
 
     "contact": "Contacto",
     "email": "Correo electrónico",
@@ -246,7 +246,7 @@ const translations = {
     "resource-4-type": "Postgraduate",
     "resource-4-name": "Neurosciences",
     "resource-4-button": "Unpublished",
-    "resource-4-description": "Linguistic temporality and supervised learning: classification of the lexical fields of past, present and future through Functional Magnetic Resonance Imaging (fMRI) processing and narrative natural language stimuli",
+    "resource-4-description": "Cortical mapping of temporal flexion in naturalistic speech",
 
     "contact": "Contact",
     "email": "e-mail",
@@ -375,7 +375,7 @@ const translations = {
     "resource-4-type": "Troisième cycle",
     "resource-4-name": "Neurosciences",
     "resource-4-button": "Non publié",
-    "resource-4-description": "Temporalité linguistique et apprentissage supervisé : classification des champs lexicaux du passé, du présent et du futur à partir du traitement des images de résonance magnétique fonctionnelle (IRMf) et de stimuli narratifs en langage naturel",
+    "resource-4-description": "Cartographie corticale de la flexion temporelle dans le langage naturel",
 
     "contact": "Contact",
     "email": "E-mail",
@@ -504,7 +504,7 @@ const translations = {
     "resource-4-type": "Pós-graduação",
     "resource-4-name": "Neurociências",
     "resource-4-button": "Não publicado",
-    "resource-4-description": "Temporalidade linguística e aprendizado supervisionado: classificação dos campos lexicais de passado, presente e futuro por meio do processamento de imagens de ressonância magnética funcional (fMRI) e estímulos narrativos em linguagem natural",
+    "resource-4-description": "Mapeamento cortical da flexão temporal na fala natural",
 
     "contact": "Contato",
     "email": "E-mail",
@@ -633,7 +633,7 @@ const translations = {
     "resource-4-type": "Postgraduiertenstudium",
     "resource-4-name": "Neurowissenschaften",
     "resource-4-button": "Unveröffentlicht",
-    "resource-4-description": "Linguistische Temporalität und überwachtes Lernen: Klassifizierung lexikalischer Felder von Vergangenheit, Gegenwart und Zukunft anhand funktioneller Magnetresonanztomographie (fMRT) und narrativer Sprachstimuli",
+    "resource-4-description": "Kortikale Kartierung der temporalen Flexion im natürlichen Sprechen",
 
     "contact": "Kontakt",
     "email": "E-Mail",
@@ -762,7 +762,7 @@ const translations = {
     "resource-4-type": "Аспирантура",
     "resource-4-name": "Нейронауки",
     "resource-4-button": "Не опубликовано",
-    "resource-4-description": "Лингвистическая темпоральность и контролируемое обучение: классификация лексических полей прошлого, настоящего и будущего на основе обработки данных функциональной магнитно-резонансной томографии (фМРТ) и повествовательных стимулов на естественном языке",
+    "resource-4-description": "Картирование кортикальных зон, отвечающих за временное сгибание, при естественной речи",
 
     "contact": "Контакты",
     "email": "Электронная почта",
